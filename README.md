@@ -1,7 +1,7 @@
 ## About
 
-This allows a quick way to retrieve the code submitted as a pull request in a forked repository where the upstream is configured.
-This script takes the repository path and PR number and creates a new branch of that PR number and then switches to the branch.
+This allows a quick way to retrieve the code submitted as a pull request in a forked repository. The local repository must be configured with the remote repository upstream.
+This script takes the repository path and PR number as inputs, then creates a new branch containing the PR code then switches to the branch.
 
 ## How to use
 
@@ -14,6 +14,6 @@ Steps:
 - enter PR number 
 
 Result:
-- The script will create and switch to a new branch containing PR
-- Example: if the PR number is `123` a branch will be created called `pr-123`
+- The script will create and switch to a new branch containing PR code
+- Example: if the PR number is `123` a branch will be created called `pr-123` containing the code submitted for PR 123
 
